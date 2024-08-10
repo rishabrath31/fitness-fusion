@@ -1,0 +1,407 @@
+body {
+  background-color: rgb(155, 146, 146);
+}
+
+header {
+  background-color: rgb(59, 82, 82);
+  padding: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  color: azure;
+  text-decoration: underline;
+}
+
+#navcolor {
+  color: whitesmoke;
+}
+
+fieldset {
+  margin-top: 15px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#one {
+  text-align: center;
+}
+
+nav a {
+  margin-right: 20px;
+}
+a:hover {
+  background-color: rgb(74, 213, 211);
+}
+
+/* CSS CODE FOR THE DROP DOWN  */
+.drop {
+  background-color: #36a59d;
+  color: white;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(30, 1, 76);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop {
+  background-color: #1b34a0;
+}
+
+.imgvdo {
+  text-align: center;
+  justify-content: center;
+}
+/* Smooth transition for both image and video */
+.imgvdo img,
+.imgvdo .vdo {
+  transition: transform 0.8s ease-in-out;
+}
+/* 3D transform effect on both image and video hover */
+.imgvdo img:hover,
+.imgvdo .vdo:hover {
+  transform: perspective(400px) translateZ(100px);
+}
+
+/* Adjust the value to increase or decrease the space */
+.imgvdo img,
+.imgvdo .vdo {
+  margin-right: 100px;
+}
+
+.vdo {
+  height: 225px; /* Set the desired height */
+  width: auto; /* Maintain aspect ratio by adjusting the width automatically */
+}
+
+/*CSS CODE FOR BLOG 2 IMAGES AND VDOS*/
+.imgvdo1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.imgvdo1 img,
+.imgvdo1 .vdo1 {
+  margin-right: 100px;
+  transition: transform 0.8s ease-in-out; /* Smooth transition for both image and video */
+}
+
+.vdo1 {
+  height: 205px;
+  width: auto;
+}
+
+.imgvdo1 img:hover,
+.imgvdo1 .vdo1:hover {
+  transform: perspective(400px) translateZ(100px); /* 3D transform effect on hover */
+}
+
+/*CSS CODE FOR BLOG 3 IMAGES AND VDOS*/
+.imgvdo2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.imgvdo2 img,
+.imgvdo2 .vdo2 {
+  margin-right: 100px;
+}
+
+.vdo2 {
+  height: 220px;
+  width: auto;
+}
+
+.imgvdo2 img,
+.imgvdo2 .vdo2 {
+  transition: transform 0.8s ease-in-out;
+}
+
+.imgvdo2 img:hover,
+.imgvdo2 .vdo2:hover {
+  transform: perspective(400px) translateZ(100px);
+}
+
+/* Style the 'About Me' section */
+#four {
+  background-color: #2c3e50; /* Dark background color for contrast */
+  color: #ecf0f1; /* Light text color for readability */
+  padding: 20px; /* Add padding inside the section */
+  margin: 20px 0; /* Add space above and below the section */
+  border: 2px solid #ecf0f1; /* Add a light-colored border */
+  border-radius: 10px; /* Round the corners of the section */
+}
+
+/* Center the text in the 'About Me' section */
+#four h2,
+#four p,
+#four h3,
+#four label,
+#four textarea,
+#four input {
+  text-align: center;
+}
+
+/* Style the input fields and textarea */
+#four input[type="text"],
+#four input[type="email"],
+#four textarea {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+/*  submit button */
+#four input[type="submit"] {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#four input[type="submit"]:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Style the links inside the 'About Me' section */
+#four a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+#four a:hover {
+  text-decoration: underline;
+}
+
+/*css used to desing the social media links by proving the images */
+.fa-twitter {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.fa-instagram {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.fa-facebook {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.icons a {
+  margin: 0 10px; /* Adds 10px space on the left and right of each anchor tag */
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons a i {
+  font-size: 35px;
+}
+/*FOOTER SECTION DESIGN */
+
+/* Footer Styling */
+.footer {
+  background-color: #2c3e50; /* Dark background color */
+  color: #ecf0f1; /* Light text color */
+  padding: 40px 0; /* Padding for top and bottom */
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  border-style: groove;
+  border-color: #ecf0f1;
+  border-radius: 10px;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container */
+}
+
+.footercontainer div {
+  margin: 20px 0;
+  max-width: 300px;
+}
+
+.footerabout,
+.footerlinks,
+.footersocial {
+  flex: 1;
+}
+
+.footer h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #1abc9c; /* Highlight color for headings */
+}
+
+.footer p {
+  line-height: 1.6;
+}
+
+.footerlinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerlinks li {
+  margin-bottom: 10px;
+}
+
+.footerlinks a {
+  color: #ecf0f1; /* Link color */
+  text-decoration: none;
+}
+
+.footerlinks a:hover {
+  color: #1abc9c; /* Hover color */
+  text-decoration: underline;
+}
+
+/* Social Media Icons Styling */
+.footersocial .icons a {
+  margin: 0 15px;
+  color: #ecf0f1;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.footersocial .icons a:hover {
+  color: #1abc9c; /* Hover color for icons */
+}
+
+/* Footer Bottom Section */
+.footerbottom {
+  background-color: #051728;
+  color: #04dfee;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footerbottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#emailtext {
+  color: whitesmoke;
+}
+
+/*RESPONSIVENESS*/
+
+/* Mobile devices (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .imgvdo img,
+  .imgvdo .vdo,
+  .imgvdo1 img,
+  .imgvdo1 .vdo1,
+  .imgvdo2 img,
+  .imgvdo2 .vdo2 {
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  nav a {
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #four input[type="text"],
+  #four input[type="email"],
+  #four textarea {
+    width: 90%;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footercontainer div {
+    max-width: 100%;
+  }
+}
+
+/* Tablets (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .imgvdo img,
+  .imgvdo .vdo,
+  .imgvdo1 img,
+  .imgvdo1 .vdo1,
+  .imgvdo2 img,
+  .imgvdo2 .vdo2 {
+    margin-right: 20px;
+    width: 80%;
+    height: auto;
+  }
+
+  nav a {
+    margin-right: 15px;
+  }
+
+  #four input[type="text"],
+  #four input[type="email"],
+  #four textarea {
+    width: 70%;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+  }
+
+  .footercontainer div {
+    max-width: 90%;
+  }
+}
